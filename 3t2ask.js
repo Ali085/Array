@@ -1,6 +1,6 @@
-var Mercedes=2013;
+var Mercedes=2009;
 var Bmw =2003;
-var Porche=2011 ;
+var Porche=2008 ;
 var Vaz =1999;
 var Togg=2022;
 
@@ -11,7 +11,7 @@ var araba; (
     Brand=Mercedes,
     Color="black",
     Model="c220",
-    Year=2013  
+    Year=2009  
     )
     var araba; (
         Brand="Bmw",
@@ -43,7 +43,7 @@ var araba; (
                 Brand:"Mercedes",
                 Color:"black",
                 Model:"c220",
-                Year:2013
+                Year:2009
             },
             {
                 Brand:"Bmw",
@@ -55,7 +55,7 @@ var araba; (
                 Brand:"Porche",
                 Color:"Purple",
                 Moder:"Cayenne",
-                Year:2011
+                Year:2008
             },
             {
                 Brand:"Vaz",
@@ -72,10 +72,11 @@ var araba; (
         ]
         
         
-        for(i=1;i<1;i++){
+        for(i=1;i<masinlar.length;i++){
             if(Year>2010){
                 
-                console.log(i);
+                console.log(Brand);
             }
         
     }
+    
